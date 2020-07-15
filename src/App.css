@@ -3,9 +3,9 @@
   width: 1000px;
 }
 #buttons{
-  position: absolute;
-  bottom: 14px;
-  left: 90px;
+position: absolute;
+  bottom: 55px;
+  right: 0px;
 }
 #buttons button{
   padding: 10px;

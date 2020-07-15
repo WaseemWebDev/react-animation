@@ -63,7 +63,10 @@ function Car() {
 
   return (
     <>
-      <img src={car} ref={ref} alt="car" id="car" style={{ position: "absolute", zIndex: "9999", left: "0px", bottom: "0px" }} />
+    <div> 
+         <img src={car} ref={ref} alt="car" id="car" style={{ position: "absolute", zIndex: "9999", left: "0px", bottom: "0px" }} />
+         </div>
+
       <div id="buttons">
         <button onClick={play}>Play</button>
         <button onClick={pause}>Pause</button>
